@@ -1,5 +1,5 @@
-exports = async function () {
-
+exports = async function() {
+  
   // Supply projectID and clusterNames...
   const projectID = context.values.get('mongodb-atlas-projectid');
   const clusterNames = context.values.get('mongodb-atlas-cluster-names-to-pause');
@@ -9,21 +9,19 @@ exports = async function () {
   const password = context.values.get('mongodb-atlas-private-key');
 
   // Set desired state...
-  const body = {
-    paused: true
-  };
+  const body = {paused: true};
 
   var result = "";
-
+  
   clusterNames.forEach(async function (name) {
     result = await context.functions.execute('modifyCluster', username, password, projectID, name, body)
     console.log("Cluster " + name + ": " + EJSON.stringify(result));
-
-    if (result.error) {
+    
+    if (result.error) { 
       return result;
     }
   })
 
 
-  return clusterNames.length + " clusters paused";
+  return clusterNames.length + " clusters paused"; 
 };

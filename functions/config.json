@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "atlas_pause_cluster",
         "private": false,
         "disable_arg_logs": true
@@ -28,12 +29,16 @@
         "private": true
     },
     {
-        "name": "Atlas_Triggers_pauseClusters_1689868829",
+        "name": "Atlas_Triggers_unpauseServices_1689927658",
         "private": false
     },
     {
         "name": "atlas_check_cluster_status_pause_or_unpause",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "Atlas_Triggers_pauseServices_1689928447",
+        "private": false
     }
 ]

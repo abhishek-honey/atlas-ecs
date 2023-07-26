@@ -1,5 +1,5 @@
 {
     "name": "ecs-task-defination-arn",
-    "value": "<your-arn-value>",
+    "value": "arn:aws:ecs:ap-south-1:587773435958:service/nhs-england/nhs-england-service",
     "from_secret": false
 }

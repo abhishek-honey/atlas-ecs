@@ -1,10 +1,10 @@
-exports = async function (arg) {
-  const AWS_CONFIG = {
+exports = async function(arg){
+const AWS_CONFIG = {
     credentials: {
-      accessKeyId: `<accessKeyId>`,
-      secretAccessKey: `<secretAccessKey>
+      accessKeyId: '<Value>',
+      secretAccessKey: '<Value>',
     },
-    region: '<your-region>',
+    region: '<region-value>',
   }
   return AWS_CONFIG
 };

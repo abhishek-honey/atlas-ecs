@@ -1,15 +1,15 @@
 {
-    "name": "pauseClusters",
+    "name": "pauseServices",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "0 23 * * *",
+        "schedule": "0 2 * * *",
         "skip_catchup_events": false
     },
     "disabled": false,
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "Atlas_Triggers_pauseClusters_1689868829"
+                "function_name": "Atlas_Triggers_pauseServices_1689928447"
             }
         }
     }
