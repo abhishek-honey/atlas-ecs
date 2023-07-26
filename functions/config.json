@@ -1,0 +1,39 @@
+[{
+        "name": "atlas_pause_cluster",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "atlas_unpause_cluster",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "aws_getConfig",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "ecs_get_desired_count",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "ecs_pause_num_task_zero",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "modifyCluster",
+        "private": true
+    },
+    {
+        "name": "Atlas_Triggers_pauseClusters_1689868829",
+        "private": false
+    },
+    {
+        "name": "atlas_check_cluster_status_pause_or_unpause",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]

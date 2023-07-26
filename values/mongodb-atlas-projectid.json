@@ -1,0 +1,5 @@
+{
+    "name": "mongodb-atlas-projectid",
+    "value": "<your-project-id>",
+    "from_secret": false
+}
